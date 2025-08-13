@@ -1,0 +1,125 @@
+#imagen-principal img {
+    width: 100%;
+    max-height: 85vh;
+    object-fit: cover;
+    display: block;
+}
+
+#encabezado {
+    background-image: url(../imagenes/encabezado.png);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 20px 20px 150px;
+    gap: 50px;
+}
+
+#navbarr {
+    display: flex;
+
+}
+
+#navbarr li {
+    margin: 0 50px;
+    list-style: none;
+}
+
+#navbarr li a {
+    text-decoration: none;
+    color: #805500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+    font-size: 24px;
+    font-weight: bolder;
+
+    transition: 0.3s;
+
+    &:hover {
+        color: whitesmoke;
+    }
+}
+
+
+.registro-inicio-sesion {
+    display: flex;
+    padding: 30px;
+    gap: 50px;
+}
+
+.inicio-sesion, .registrarse {
+    color: #805500;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    border: 2px solid #805500;
+    box-shadow: 0 0 5px 2px;
+}
+
+.ingresa-ahora:hover, .registrarse-ahora:hover {
+    transition: 0.3s;
+
+    &:hover {
+        color: whitesmoke;
+    }
+}
+
+.ingresa-ahora, .registrarse-ahora {
+    text-decoration: none;
+    color: #805500;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box_usuario_log {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #805500;
+    box-shadow: 0 0 5px 2px #805500;
+    padding: 20px;
+}
+
+.txt_name_user_log {
+    text-align: center;
+    font-size: 20px;
+}
+
+.txt_welcome_user {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.txt_welcome_user, .txt_name_user_log {
+    color: #805500;
+    font-weight: bolder;
+}
+
+.btn-cerrar-sesion {
+    text-align: center;
+    margin-top: 10px;
+    color: #805500;
+    text-decoration: none;
+    font-weight: bolder;
+
+    &:hover {
+        transition: 0.3s;
+        color: whitesmoke;
+    }
+}
+
+.admin-box {
+    border: 2px solid #805500;
+    box-shadow: 0 0 5px 2px #805500;
+    padding: 40px;
+}
+
+.txt-admin-panel-go {
+    color: #805500;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+
+    &:hover {
+        transition: 0.3s;
+        color: whitesmoke;
+    }
+}

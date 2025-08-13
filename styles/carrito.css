@@ -1,0 +1,42 @@
+.carrito-compras {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #BB713C;
+    gap: 20px;
+}
+
+.carrito-titulo {
+    padding: 20px;
+}
+
+.caja-carrito {
+    min-width: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #F0E5C9;
+}
+
+.boton-pagar a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    transition: 0.2s;
+    &:hover {
+        color: #F0E5C9;
+    }
+}
+
+.subtotal {
+    font-weight: bolder;
+}
+
+.total-carrito h3 {
+    padding: 10px;
+    color: #F0E5C9;
+}

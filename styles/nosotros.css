@@ -1,0 +1,39 @@
+#nosotros {
+    background-color: #F0E5C9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#caja-txt-nosotros {
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#caja-txt-nosotros .titulo-nosotros, .subtitulo-nosotros, .parrafo-nosotros {
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
+
+.titulo-nosotros, .subtitulo-nosotros {
+    color: #BB713C;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.parrafo-nosotros {
+    color: #BB713C;
+    font-size: 21px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #BB713C;
+
+}
+
+#ultimo-parrafo {
+    border-bottom: none;
+}

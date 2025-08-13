@@ -1,0 +1,38 @@
+.seccion-pagar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #BB713C;
+    color: #F0E5C9;
+    padding: 40px;
+}
+
+.caja-compra {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.caja-compra h3 {
+    border-bottom: 1px solid #F0E5C9;
+}
+
+.total-a-pagar-txt {
+    font-weight: bolder;
+}
+
+.formulario-compra, #formulario-retiro, #formulario-envio {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.caja-compra input {
+    background-color: transparent;
+    border: none;
+    border: 1px solid #F0E5C9;
+    padding: 10px;
+    &::placeholder {
+        color: #F0E5C9;
+    }
+}

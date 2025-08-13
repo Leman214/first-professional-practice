@@ -1,0 +1,75 @@
+#nuestros-clientes {
+    background-color: #BB713C;
+}
+
+#opiniones-clientes {
+    text-align: center;
+    padding: 30px;
+    color: #F0E5C9;
+    font-size: 40px;
+    text-shadow: 0 0 10px #F0E5C9;
+}
+
+.mi-carrusel {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    height: 400px; /* Dale una altura fija */
+}
+
+.slides {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    min-width: 100%;
+    transition: opacity 1s ease; /* Duración del fade */
+    opacity: 0; /* Invisible por defecto */
+    position: absolute; /* Para que se superpongan */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide.activo {
+    opacity: 1; /* Visible */
+}
+
+.img-slide {
+    width: 250px;
+    align-items: center;
+}
+
+.cinco-estrellas {
+    width: 150px;
+}
+
+.nombre-cliente {
+    color: #F0E5C9;
+    font-size: 28px;
+}
+
+.descripcion-cliente {
+    color: #F0E5C9;
+    font-size: 20px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }

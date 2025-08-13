@@ -1,0 +1,47 @@
+#porque-nosotros {
+    background-color: #BB713C;
+}
+
+#caja-pq-nosotros {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.pq-ns {
+    width: 300px;
+    padding: 50px;
+    color: #F0E5C9;
+    border-left: 1px solid #F0E5C9;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#pq-nos1 {
+    border: none;
+}
+
+.titulos-pq-ns {
+    font-size: 24px;
+}
+
+.parrafos-pq-ns {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.img-pq-ns {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#titulo-pq-ns {
+    text-align: center;
+    padding: 30px;
+    color: #F0E5C9;
+    text-shadow: 0 0 10px #F0E5C9;
+    font-size: 50px;
+}

@@ -1,0 +1,63 @@
+#footer {
+    background-color: #F0E5C9;
+}
+
+.contacto-redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 100px;
+    color: #BB713C;
+}
+
+.prueba {
+    display: flex;
+    flex-direction: column;
+}
+
+#email {
+    margin-bottom: 10px;
+}
+
+#txt-contacto, #nuestras-redes {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#txt-estamos-en {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#icono-ubic, #icono-horario, #icono-ig {
+    margin-right: 5px;
+}
+
+#telefono {
+    margin-bottom: 100px;
+}
+
+#ubic-ig-fb {
+    display: flex;
+    flex-direction: column;
+}
+
+#link-instagram, #link-facebook {
+    text-decoration: none;
+    color: inherit;
+}
+
+#instagram {
+    margin-bottom: 10px;
+}
+
+#horarios {
+    margin-bottom: 100px;
+}
+
+#logo-footer {
+    width: 100%;
+    max-width: 150px;
+}

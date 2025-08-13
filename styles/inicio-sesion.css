@@ -1,0 +1,64 @@
+.iniciar-sesion {
+    background-color: #805500;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.titulo-iniciar-sesion {
+    color: #F0E5C9;
+}
+
+.formulario-iniciar-sesion {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 100px;
+    border: 2px solid #F0E5C9;
+    box-shadow: 0 0 10px 1px #F0E5C9;
+    margin: 30px;
+    padding-top: 20px;
+}
+
+.inputs-iniciar-sesion {
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #F0E5C9;
+    color: #F0E5C9;
+
+    &::placeholder {
+        color: #F0E5C9;
+        text-align: center;
+    }
+}
+
+#btn-iniciar-sesion {
+    background: none;
+    border: none;
+    color: #F0E5C9;
+    cursor: pointer;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+
+    &:hover {
+        transition: 0.5s;
+        background-color: #F0E5C9;
+        color: #805500;
+    }
+}
+
+#txt-pw-existe {
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#txt-cuenta-creada {
+    color: #F0E5C9;
+    font-weight: bolder;
+    font-size: 20px;
+}

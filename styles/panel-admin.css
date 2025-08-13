@@ -1,0 +1,50 @@
+.admin-panel {
+    background-color: #BB713C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F0E5C9;
+    padding: 30px;
+}
+
+.box-admin-panel {
+    padding: 30px;
+    border: 2px solid #F0E5C9;
+    box-shadow: 0 0 10px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.box-links-panel {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.links-panel {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    &:hover {
+        text-shadow: 0 0 10px;
+    }
+}
+
+.form-catalogo-adminpanel {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-cat-adm {
+    max-width: 200px;
+}
+
+.pruebax {
+    max-width: 200px;
+}

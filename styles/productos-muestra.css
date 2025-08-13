@@ -1,0 +1,38 @@
+#section-nuestros-productos {
+    background-color: #F0E5C9;
+}
+
+#nuestros-productos {
+    display: flex;
+    flex-direction: row;
+}
+
+.productos-muestra {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.01);
+        box-shadow: 0 0 10px 1px #BB713C;
+    }
+}
+
+.txt-productos-prueba {
+    text-decoration: none;
+    margin-top: 30px;
+    color: #BB713C;
+    font-size: 24px;
+}
+
+#titulo-ns-productos {
+    text-align: center;
+    color: #BB713C;
+    font-size: 50px;
+    text-shadow: 0 0 10px #BB713C;
+    padding: 30px;
+}
