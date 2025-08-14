@@ -30,6 +30,6 @@ if (isset($_FILES['imagen-madera']) && $_FILES['imagen-madera']['error'] == 0) {
 
 $consulta_bd = mysqli_query($database, "INSERT INTO productos VALUES(NULL, '$imagen_nombre','$categoria', '$precio', '$descripcion', '$tipo', '$stock')");
 
-header("Location: /madefroni/panel-admin.php?value=producto-agregado#redir-admin-panel")
+header("Location: ../panel-admin.php?value=producto-agregado#redir-admin-panel");
 
 ?>

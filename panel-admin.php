@@ -22,7 +22,7 @@
 
             <div id="form-catalogo" style="display: none;">
 
-                <form action="/madefroni/database/validar-producto.php" class="form-catalogo-adminpanel" method="POST" enctype="multipart/form-data">
+                <form action="database/validar-producto.php" class="form-catalogo-adminpanel" method="POST" enctype="multipart/form-data">
 
                     <label for="imagen-madera">Imagen</label>
                     <input type="file" name="imagen-madera" id="imagen-madera" class="form-cat-adm" accept="image/*" required>
@@ -79,7 +79,7 @@
 
     </section>
 
-    <script src="/madefroni/scripts/mostrarFormulario.js"></script>
+    <script src="scripts/mostrarFormulario.js"></script>
 <?php include('componentes/boton-top.php'); ?>
 </body>
 

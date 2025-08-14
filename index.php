@@ -12,6 +12,6 @@
     <?php include('componentes/footer.php'); ?>
 
 <?php include('componentes/boton-top.php'); ?>
-<script src="/madefroni/scripts/carrusel.js"></script>
+<script src="scripts/carrusel.js"></script>
 </body>
 </html>

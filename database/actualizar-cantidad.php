@@ -9,6 +9,6 @@ $nueva_cantidad = $_POST['nueva_cantidad'];
 $consulta = "UPDATE carrito SET cantidad = '$nueva_cantidad' WHERE id = '$item_id'";
 mysqli_query($database, $consulta);
 
-// Volver al carrito
-header("Location: /madefroni/componentes/carrito-compras.php#item-" . $item_id);
+// Volver al carrito con ruta relativa
+header("Location: ../componentes/carrito-compras.php#item-" . $item_id);
 ?>

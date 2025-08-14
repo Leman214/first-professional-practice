@@ -25,13 +25,13 @@ if (mysqli_num_rows($resultado_consulta) > 0) {
         echo "<h3>Producto: ". $categoria_mostrar . "</h3>";
         echo "<p>Descripcion: " . $item['descripcion'] . "</p>";
         echo "<p>Precio: $" . $item['precio'] . "</p>";
-        echo "<form method='POST' action='/madefroni/database/actualizar-cantidad.php'>";
+        echo "<form method='POST' action='../database/actualizar-cantidad.php'>";
         echo "<input type='hidden' name='item_id' value='" . $item['id'] . "'>";
         echo "<label>Cantidad: </label>";
         echo "<input type='number' name='nueva_cantidad' value='" . $item['cantidad'] . "' min='1' max='99'>";
         echo "<button type='submit'>Actualizar</button>";
         echo "</form>";
-        echo "<form method='POST' action='/madefroni/database/borrar-item.php' style='display:inline; margin-left:10px;'>";
+        echo "<form method='POST' action='../database/borrar-item.php' style='display:inline; margin-left:10px;'>";
         echo "<input type='hidden' name='item_id' value='" . $item['id'] . "'>";
         echo "<button type='submit' onclick='return confirm(\"¿Estás seguro de que quieres eliminar este producto?\")' class='btn-borrar'>Borrar</button>";
         echo "</form>";
@@ -43,8 +43,6 @@ if (mysqli_num_rows($resultado_consulta) > 0) {
     echo "<div class='total-carrito'>";
     echo "<h3>Total: $" . $total_general . "</h3>";
     echo "</div>";
-
-    
 
 } else {
 

@@ -13,18 +13,18 @@ if (isset($_POST['item_id']) && !empty($_POST['item_id'])) {
         // Verificar si se eliminó algún registro
         if (mysqli_affected_rows($database) > 0) {
             // Redirigir de vuelta al carrito con mensaje de éxito
-            header("Location: /madefroni/componentes/carrito-compras.php?mensaje=eliminado");
+            header("Location: ../componentes/carrito-compras.php?mensaje=eliminado");
         } else {
             // No se encontró el item o no pertenece al usuario
-            header("Location: /madefroni/componentes/carrito-compras.php?error=no_encontrado");
+            header("Location: ../componentes/carrito-compras.php?error=no_encontrado");
         }
     } else {
         // Error en la consulta
-        header("Location: /madefroni/componentes/carrito-compras.php?error=bd");
+        header("Location: ../componentes/carrito-compras.php?error=bd");
     }
 } else {
     // No se recibió item_id válido
-    header("Location: /madefroni/componentes/carrito-compras.php?error=datos");
+    header("Location: ../componentes/carrito-compras.php?error=datos");
 }
 
 mysqli_close($database);

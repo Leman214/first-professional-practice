@@ -1,0 +1,92 @@
+Listado de rutas de carpetas para el volumen Nuevo vol
+El número de serie del volumen es 4896-BC24
+M:.
+|   .gitignore
+|   alambres.php
+|   estructura.txt
+|   herrajes.php
+|   index.php
+|   maderas.php
+|   panel-admin.php
+|   README.md
+|   
++---auth
+|       cerrar_sesion.php
+|       iniciar-sesion.php
+|       registrarse.php
+|       
++---componentes
+|       boton-top.php
+|       carrito-compras.php
+|       footer.php
+|       head.php
+|       header.php
+|       nosotros.php
+|       nuestros-clientes.php
+|       pagar.php
+|       porque-nosotros.php
+|       productos-muestra.php
+|       
++---database
+|       actualizar-cantidad.php
+|       borrar-item.php
+|       cargar-carrito.php
+|       cargar-productos-ajax.php
+|       carrito-cargado.php
+|       carrito.php
+|       conexion.php
+|       consulta_catalogo_maderas.php
+|       validar-producto.php
+|       validar_login.php
+|       validar_user.php
+|       
++---imagenes
+|       5-stars.png
+|       alambre.png
+|       alambres-prueba.png
+|       cliente.png
+|       compra-online.png
+|       confianza.png
+|       descuento.png
+|       encabezado.png
+|       herraje.png
+|       herrajes-prueba.png
+|       hombre-cliente-dos.png
+|       hombre-cliente-tres.png
+|       hombre-cliente.png
+|       logo-footer.png
+|       logo.png
+|       madera-muestra.png
+|       mujer-cliente.png
+|       pagina-principal.png
+|       postes-madera.png
+|       
++---scripts
+|       carrusel.js
+|       catalogo.js
+|       mostrarFormulario.js
+|       
++---styles
+|       carrito.css
+|       footer.css
+|       global.css
+|       header.css
+|       inicio-sesion.css
+|       maderas.css
+|       nosotros.css
+|       nuestros-clientes.css
+|       pagar.css
+|       panel-admin.css
+|       porque-nosotros.css
+|       productos-muestra.css
+|       
+\---uploads
+    +---dfsf
+    \---productos
+            688aada57506c_DeWatermark.ai_1752007316917.jpeg
+            688ab07b9843e_DeWatermark.ai_1752007316917.jpeg
+            688ac1daa4477_wmremove-transformed (1).png
+            688c24c377284_DeWatermark.ai_1752005615559-removebg-preview.png
+            689bb2ebcbeb5_Captura de pantalla 2025-07-31 141631.png
+            689bb5233c808_Captura de pantalla 2025-07-31 141631.png
+            

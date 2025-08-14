@@ -36,12 +36,12 @@ if(isset($_GET['art'])) {
         }
 
         if (isset($_GET['ya_existe']) && $_GET['ya_existe'] == 'si') {
-            echo "<p id='mensaje'>⚠️ Ese producto ya fue agregado a su carrito de compras. <a href='/madefroni/componentes/carrito-compras.php'>Haz click aquí</a> para ir a verlo</p>";
+            echo "<p id='mensaje'>⚠️ Ese producto ya fue agregado a su carrito de compras. <a href='componentes/carrito-compras.php'>Haz click aquí</a> para ir a verlo</p>";
             echo "<script>location.hash = '#mensaje';</script>";
         }
 
         if (isset($_GET['cargado']) && $_GET['cargado'] == 'si') {
-            echo "<p id='mensaje'>✅ Producto agregado correctamente! <a href='/madefroni/componentes/carrito-compras.php'>Haz click aquí para gestionar tu carrito</a></p>";
+            echo "<p id='mensaje'>✅ Producto agregado correctamente! <a href='componentes/carrito-compras.php'>Haz click aquí para gestionar tu carrito</a></p>";
             echo "<script>location.hash = '#mensaje';</script>";
         }
 

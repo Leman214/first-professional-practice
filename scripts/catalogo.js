@@ -1,9 +1,12 @@
+// Obtener la base URL del sitio automáticamente
+const baseURL = window.location.origin + window.location.pathname.replace(/\/[^\/]*$/, '/');
+
 document.querySelectorAll('button[data-art]').forEach(function(boton) {
     boton.addEventListener('click', function() {
         const art = this.getAttribute('data-art');
         
-        // Opción 1: con backticks
-        fetch(`/madefroni/database/cargar-productos-ajax.php?art=${art}`)
+        // Construir URL completa dinámicamente
+        fetch(`${baseURL}database/cargar-productos-ajax.php?art=${art}`)
             .then(response => response.text())
             .then(html => {
                 document.getElementById('contenido-productos').innerHTML = html;
@@ -11,6 +14,5 @@ document.querySelectorAll('button[data-art]').forEach(function(boton) {
             .catch(error => {
                 console.error('Error:', error);
             });
-
     });
 });

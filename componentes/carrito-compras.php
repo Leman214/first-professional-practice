@@ -16,7 +16,7 @@
             <?php include('../database/cargar-carrito.php') ?>
 
             <div class="boton-pagar">
-                <a href="/madefroni/componentes/pagar.php">IR A PAGAR</a>
+                <a href="pagar.php">IR A PAGAR</a>
             </div>
 
         </div>

@@ -28,7 +28,7 @@
     </section>
 
 <?php include('componentes/boton-top.php'); ?>
-<script src="/madefroni/scripts/catalogo.js"></script>
+<script src="scripts/catalogo.js"></script>
 </body>
 
 <?php include('componentes/footer.php'); ?>

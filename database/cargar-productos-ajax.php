@@ -3,6 +3,9 @@ include('conexion.php');
 
 session_start();
 
+// Detectar la ruta base para uploads
+$uploads_path = file_exists('../uploads/productos/') ? '../uploads/productos/' : 'uploads/productos/';
+
 if(isset($_GET['art'])) {
 
     switch($_GET['art']) {
@@ -37,7 +40,7 @@ if(isset($_GET['art'])) {
         while($producto = mysqli_fetch_assoc($resultado)) {
             echo "<div class='producto'>";
             if (!empty($producto['imagen'])) {
-                echo "<img src='/madefroni/uploads/productos/" . $producto['imagen'] . "' alt='Producto' class='imagen-producto'>";
+                echo "<img src='" . $uploads_path . $producto['imagen'] . "' alt='Producto' class='imagen-producto'>";
             }
             echo "<p class='parrafo-productos-madera descripcion-producto'>" . $producto['descripcion'] . "</p>";
             echo "<p class='parrafo-productos-madera'> Material: " . $producto['tipo'] . "</p>";
@@ -47,7 +50,7 @@ if(isset($_GET['art'])) {
                 echo "<a href='#'> BORRAR </a>";
             }   else {
                 if (isset($_SESSION['usuario_logueado']) && $_SESSION['usuario']) {
-                    echo "<a href='/madefroni/database/carrito.php?producto_id=" . $producto['id'] . "&art=" . $_GET['art'] . "' class='boton-agg-carrito'> COMPRAR </a>";
+                    echo "<a href='database/carrito.php?producto_id=" . $producto['id'] . "&art=" . $_GET['art'] . "' class='boton-agg-carrito'> COMPRAR </a>";
                 }
             }
 

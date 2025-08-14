@@ -11,17 +11,17 @@
 
         <h2 class="titulo-iniciar-sesion">REGISTRARSE</h2>
 
-        <form action="/madefroni/database/validar_user.php" method="POST" class="formulario-iniciar-sesion">
+        <form action="../database/validar_user.php" method="POST" class="formulario-iniciar-sesion">
 
-            <img src="/madefroni/imagenes/logo.png" alt="" id="logo-inicio-sesion">
+            <img src="../imagenes/logo.png" alt="" id="logo-inicio-sesion">
 
-            <input type="text" name="usuario" class="inputs-iniciar-sesion yboton"id="input-nombre-cliente" placeholder="Nombre Completo" required>
+            <input type="text" name="usuario" class="inputs-iniciar-sesion yboton" id="input-nombre-cliente" placeholder="Nombre Completo" required>
 
             <input type="password" name="contraseña" class="inputs-iniciar-sesion yboton" id="input-pw" placeholder="Ingrese su Contraseña" required>
 
             <input type="email" name="email" class="inputs-iniciar-sesion yboton" placeholder="Ingrese su Email" required>
 
-            <button type="submit" id="btn-iniciar-sesion" class="yboton">Iniciar Sesión</button>
+            <button type="submit" id="btn-iniciar-sesion" class="yboton">Registrarse</button>
         </form>
 
         <?php
@@ -36,7 +36,7 @@
 
                     <script>
                         setTimeout(() => {
-                        window.location.href = "/madefroni/auth/iniciar-sesion.php?status=login#redir-login";
+                        window.location.href = "iniciar-sesion.php?status=login#redir-login";
                         }, 3000);
                     </script>'; 
             }

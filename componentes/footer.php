@@ -1,3 +1,8 @@
+<?php
+// Detectar si estamos en una subcarpeta para las rutas de imágenes
+$images_path = file_exists('imagenes/logo-footer.png') ? 'imagenes/' : '../imagenes/';
+?>
+
 <footer id="contacto">
 
         <div id="footer">
@@ -39,7 +44,7 @@
                         <i class="fas fa-calendar-days" id="icono-horario"></i>Lun a Vie de 9 a 13 y 15 a 18:30. Sab y Dom cerrado.
                     </p>
 
-                    <img src="imagenes/logo-footer.png" alt="" id="logo-footer">
+                    <img src="<?php echo $images_path; ?>logo-footer.png" alt="" id="logo-footer">
 
                 </div>
 
@@ -47,4 +52,4 @@
 
         </div>
 
-    </footer>
+</footer>

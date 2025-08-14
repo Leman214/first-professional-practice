@@ -13,13 +13,13 @@ $resultado_existe = mysqli_query($database, $consulta_existe);
 
 if(mysqli_num_rows($resultado_existe) > 0) {
 
-    header("Location: /madefroni/maderas.php?art=$categoria&ya_existe=si");
+    header("Location: ../maderas.php?art=$categoria&ya_existe=si");
 
 } else {
 
     mysqli_query($database, "INSERT INTO carrito VALUES (NULL, '$usuario_id', '$producto_id', 1, NOW())");
 
-    header("Location: /madefroni/maderas.php?art=$categoria&cargado=si");
+    header("Location: ../maderas.php?art=$categoria&cargado=si");
 
 }
 ?>
