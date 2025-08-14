@@ -7,7 +7,13 @@
 ## 🔹 Descripción
 Madefroni es una página web desarrollada para la empresa **Madefroni**, especializada en la **venta mayorista de maderas**.  
 Permite a los usuarios navegar por el catálogo, crear cuentas, gestionar su carrito y realizar pedidos vía WhatsApp.  
-Los administradores pueden gestionar productos, usuarios y revisar el historial de compras.  
+Los administradores pueden gestionar productos, usuarios y revisar el historial de compras.
+
+---
+
+## 🌐 Acceso Online
+El proyecto está **online y accesible para cualquiera** en:  
+[m-madefroni.wuaze.com](https://m-madefroni.wuaze.com)
 
 ---
 
@@ -37,16 +43,18 @@ Los administradores pueden gestionar productos, usuarios y revisar el historial 
 
 ---
 
-## 🚀 Instalación Local
+## 🚀 Acceso para pruebas
+Como el proyecto está **subido a un servidor**, ya no hace falta instalar nada localmente.  
+Podés acceder directamente y explorar todas las funcionalidades en:  
+[m-madefroni.wuaze.com](https://m-madefroni.wuaze.com)
 
-1. Instalar un servidor local: **XAMPP** o **WAMP**.  
-2. Colocar la carpeta `madefroni` dentro de `htdocs`.  
-3. Crear una base de datos en phpMyAdmin (por ejemplo `madefroni_db`).  
-4. Crear `database/conexion.php` con tus credenciales locales:
+---
 
-```php
-<?php
-$DB_HOST = "localhost";
-$DB_USER = "root";
-$DB_PASS = "";
-$DB_NAME = "madefroni_db";
+## 📸 Capturas
+Agregá capturas de pantalla del proyecto para que se vea más profesional.  
+
+---
+
+## 📝 Nota sobre la base de datos
+- La base de datos está alojada en el hosting, así que **no hace falta crearla localmente**.  
+- Para seguridad, el archivo `conexion.php` con credenciales del hosting **no se sube al repositorio**.
